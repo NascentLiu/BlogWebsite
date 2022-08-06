@@ -11,7 +11,7 @@ const contactContent = "My name is Bo Liu and my English name is Eric. I am a pr
 
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-NascentL:iwtmbtl19@cluster0.1lzktff.mongodb.net/blogDB", {useNewUrlParser: true});
 
 app.set('view engine', 'ejs');
 
